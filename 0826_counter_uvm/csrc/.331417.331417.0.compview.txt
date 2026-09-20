@@ -1,0 +1,9 @@
+{"vcs1":{"timestamp_begin":1788131832.001242333, "rt":6.88, "ut":7.02, "st":0.26}}
+{"vcselab":{"timestamp_begin":1788131838.930327694, "rt":0.18, "ut":0.14, "st":0.03}}
+{"link":{"timestamp_begin":1788131839.143435473, "rt":0.66, "ut":0.55, "st":0.12}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1788131831.677643609}
+{"VCS_COMP_START_TIME": 1788131831.677643609}
+{"VCS_COMP_END_TIME": 1788131839.882214859}
+{"VCS_USER_OPTIONS": "-full64 -sverilog -debug_access+all -kdb -lca -timescale=1ns/1ps -ntb_opts uvm-1.2 -o ./build/simv ./rtl/counter.sv ./testbench/tb_counter_uvm.sv"}
+{"vcs1": {"peak_mem": 452144}}
+{"vcselab": {"peak_mem": 161676}}
