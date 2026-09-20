@@ -1,0 +1,33 @@
+simSetSimulator "-vcssv" -exec "./simv" -args
+debImport "-dbdir" "./simv.daidir"
+wvCreateWindow
+wvOpenFile -win $_nWave2 {/home/aedu01/verilog/0826_adder_uvm/wavefsdb}
+verdiSetActWin -win $_nWave2
+verdiWindowResize -win $_Verdi_1 "830" "370" "900" "700"
+verdiWindowResize -win $_Verdi_1 "830" "370" "900" "700"
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+verdiWindowResize -win $_Verdi_1 "1140" "364" "1200" "893"
+verdiWindowResize -win $_Verdi_1 "830" "202" "1419" "987"
+verdiSetActWin -dock widgetDock_<Inst._Tree>
+srcHBDrag -win $_nTrace1
+srcHBDrag -win $_nTrace1
+verdiWindowResize -win $_Verdi_1 "1079" "189" "1423" "1065"
+verdiSetActWin -win $_nWave2
+wvScrollUp -win $_nWave2 1
+wvScrollDown -win $_nWave2 0
+srcHBDrag -win $_nTrace1
+verdiSetActWin -dock widgetDock_<Inst._Tree>
+srcHBSelect "tb_adder_uvm.a_if" -win $_nTrace1
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+wvScrollDown -win $_nWave2 0
+verdiWindowResize -win $_Verdi_1 "1079" "117" "1423" "1137"
+verdiWindowResize -win $_Verdi_1 "1079" "117" "1423" "1190"
+verdiDockWidgetSetCurTab -dock widgetDock_<Decl._Tree>
+verdiSetActWin -dock widgetDock_<Decl._Tree>
+verdiDockWidgetSetCurTab -dock widgetDock_<Inst._Tree>
+verdiSetActWin -dock widgetDock_<Inst._Tree>
+srcHBDrag -win $_nTrace1
+srcHBDrag -win $_nTrace1
+srcHBSelect "tb_adder_uvm.a_if" -win $_nTrace1

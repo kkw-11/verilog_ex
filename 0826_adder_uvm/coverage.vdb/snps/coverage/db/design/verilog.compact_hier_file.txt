@@ -1,0 +1,4 @@
+\$unit::./rtl/adder.sv::./tesetbench/tb_adder_uvm.sv...@3142453618 02
+tb_adder_uvm4070
+uvm_custom_install_recording4070
+uvm_custom_install_verdi_recording4070
