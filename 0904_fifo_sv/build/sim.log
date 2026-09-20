@@ -1,0 +1,74 @@
+Command: /home/aedu01/verilog/0904_fifo_sv/./build/simv -l ./build/sim.log
+Chronologic VCS simulator copyright 1991-2024
+Contains Synopsys proprietary information.
+Compiler version W-2024.09-SP1_Full64; Runtime version W-2024.09-SP1_Full64;  Sep  7 09:26 2026
+UVM_INFO /tools/synopsys/vcs/W-2024.09-SP1/etc/uvm-1.2/base/uvm_root.svh(402) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+UVM-1.2.Synopsys
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+*Verdi* Loading libsscore_vcs202409.so
+FSDB Dumper for VCS, Release Verdi_W-2024.09-SP2, Linux x86_64/64bit, 03/03/2025
+(C) 1996 - 2025 by Synopsys, Inc.
+*Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+*Verdi* : Create FSDB file 'wave.fsdb'
+*Verdi* : Begin traversing the scope (tb_fifo_uvm), layer (0).
+*Verdi* : End of traversing.
+UVM_INFO @ 0: reporter [RNTST] Running test fifo_test...
+UVM_INFO /tools/synopsys/vcs/W-2024.09-SP1/etc/uvm-1.2/base/uvm_objection.svh(1276) @ 685000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO ./tb/tb_fifo_uvm.sv(477) @ 685000: uvm_test_top.env.cov [COV] 
+***** coverage report *****
+UVM_INFO ./tb/tb_fifo_uvm.sv(478) @ 685000: uvm_test_top.env.cov [COV] overall       = 100.0%
+UVM_INFO ./tb/tb_fifo_uvm.sv(479) @ 685000: uvm_test_top.env.cov [COV] wr_en         = 100.0%
+UVM_INFO ./tb/tb_fifo_uvm.sv(480) @ 685000: uvm_test_top.env.cov [COV] rd_en         = 100.0%
+UVM_INFO ./tb/tb_fifo_uvm.sv(481) @ 685000: uvm_test_top.env.cov [COV] full          = 100.0%
+UVM_INFO ./tb/tb_fifo_uvm.sv(482) @ 685000: uvm_test_top.env.cov [COV] empty         = 100.0%
+UVM_INFO ./tb/tb_fifo_uvm.sv(483) @ 685000: uvm_test_top.env.cov [COV] wr_data       = 100.0%
+UVM_INFO ./tb/tb_fifo_uvm.sv(484) @ 685000: uvm_test_top.env.cov [COV] occupancy     = 100.0%
+UVM_INFO ./tb/tb_fifo_uvm.sv(485) @ 685000: uvm_test_top.env.cov [COV] wr_wrap       = 100.0%
+UVM_INFO ./tb/tb_fifo_uvm.sv(486) @ 685000: uvm_test_top.env.cov [COV] rd_wrap       = 100.0%
+UVM_INFO ./tb/tb_fifo_uvm.sv(487) @ 685000: uvm_test_top.env.cov [COV] cx_write_full = 100.0%
+UVM_INFO ./tb/tb_fifo_uvm.sv(488) @ 685000: uvm_test_top.env.cov [COV] cx_read_empty = 100.0%
+UVM_INFO ./tb/tb_fifo_uvm.sv(390) @ 685000: uvm_test_top.env.scb [SCB] 
+___________
+UVM_INFO ./tb/tb_fifo_uvm.sv(391) @ 685000: uvm_test_top.env.scb [SCB] Result Pass:53
+UVM_INFO ./tb/tb_fifo_uvm.sv(392) @ 685000: uvm_test_top.env.scb [SCB] Result Fail:0
+UVM_INFO ./tb/tb_fifo_uvm.sv(393) @ 685000: uvm_test_top.env.scb [SCB] Result Skip:15
+UVM_INFO /tools/synopsys/vcs/W-2024.09-SP1/etc/uvm-1.2/base/uvm_report_server.svh(904) @ 685000: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   19
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[COV]    12
+[RNTST]     1
+[SCB]     4
+[TEST_DONE]     1
+[UVM/RELNOTES]     1
+
+$finish called from file "/tools/synopsys/vcs/W-2024.09-SP1/etc/uvm-1.2/base/uvm_root.svh", line 527.
+$finish at simulation time               685000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 685000 ps
+CPU Time:      0.200 seconds;       Data structure size:   0.6Mb
+Mon Sep  7 09:26:40 2026
