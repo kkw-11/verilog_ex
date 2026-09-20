@@ -1,0 +1,9 @@
+{"vcs1":{"timestamp_begin":1787714727.597747898, "rt":6.55, "ut":6.69, "st":0.25}}
+{"vcselab":{"timestamp_begin":1787714734.204987735, "rt":0.18, "ut":0.13, "st":0.04}}
+{"link":{"timestamp_begin":1787714734.426467076, "rt":0.26, "ut":0.19, "st":0.08}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1787714727.222666314}
+{"VCS_COMP_START_TIME": 1787714727.222666314}
+{"VCS_COMP_END_TIME": 1787714734.780605867}
+{"VCS_USER_OPTIONS": "-full64 -sverilog +incdir+./rtl -debug_access+all -kdb -lca -timescale=1ns/100ps -ntb_opts uvm-1.2 -cm line+cond+fsm+tgl+branch+assert -o ./build/simv -cm line+cond+fsm+tgl+branch+assert -cm_dir coverage.vdb -cm_name siml -f files.f"}
+{"vcs1": {"peak_mem": 451300}}
+{"vcselab": {"peak_mem": 145252}}
